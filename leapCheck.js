@@ -4,9 +4,9 @@ var read=readline.createInterface({
     input:process.stdin,output:process.stdout
 });
 function leapcheck(){
-    read.question('Input Year: ', function(userinput)
+    read.question('Input Year: ', function(year)
     {
-        utility.leapcheck(userinput)
+        utility.leapcheck(year)
         read.close();
     })
 }
