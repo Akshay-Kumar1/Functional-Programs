@@ -6,7 +6,7 @@ var read=readline.createInterface({
 function primeFactor()
 {
     read.question('Enter the number : ',function(num){
-        utility.primeFactor();
+        utility.primeFactor(num);
         read.close();
     })
     
