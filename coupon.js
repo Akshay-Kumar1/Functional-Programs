@@ -7,11 +7,10 @@ var read = readline.createInterface({
 function coupon(){
     read.question('Enter minimum number : ',function(min){
         read.question('Enter maximum number : ',function(max){
-            read.question('Enter the number of coupons : ',function(num){
                 
-            utility.coupon(min,max,num);
+            utility.coupon(min,max);
             read.close();
-            })
+        
         })
     })
 }

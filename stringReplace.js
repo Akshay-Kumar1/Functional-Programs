@@ -5,8 +5,8 @@ var read=readline.createInterface({
 });
 function stringReplace(){
 
-    read.question('Enter the username : ',function(userinput){
-        utility.stringReplace(userinput);
+    read.question('Enter the username : ',function(str){
+        utility.stringReplace(str);
         read.close();
     });
 }
